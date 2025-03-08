@@ -19,7 +19,7 @@ vim.keymap.set("n", "<leader>ff", ":Telescope find_files<cr>")	-- find in files
 vim.keymap.set("n", "<leader>fc", ":Telescope live_grep<cr>")	-- find content
 
 -- Tree -> File explorer
-vim.keymap.set("n", "<leader>e", ":NvimTreeFindFileToggle<cr>")	-- toggle the file explorer
+vim.keymap.set("n", "<leader>e", ":Neotree toggle<cr>")	-- toggle the file explorer
 
 -- Toogle Comments
 vim.keymap.set("n", "<leader>#", ":CommentToggle<cr>")		-- toggle comments
