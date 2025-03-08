@@ -17,4 +17,4 @@ vim.opt.rtp:prepend(lazypath)
 require('lazy').setup( { {import = "plugins"}, {import = "plugins/lsp"} } ) -- Load all plugin files and the lsp plugin folder
 
 -- Open file explorer on startup
-vim.cmd("NvimTreeOpen")
+-- vim.cmd("NvimTreeOpen")
